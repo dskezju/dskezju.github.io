@@ -1,0 +1,40 @@
+# Languages
+#   Create a section for each of your site's languages.
+#   Documentation: https://wowchemy.com/docs/guide/language/
+
+# Default language
+en:
+  languageCode: en-us
+  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  contentDir: content/en
+
+# Uncomment the lines below to configure your website in a second language.
+zh:
+ languageCode: zh-Hans
+ contentDir: content/zh
+ title: IDS-ZJUI
+ params:
+   description: Site description in Chinese...
+ menu:
+   main:
+     - name: 主页
+       url: '#'
+       weight: 10
+     - name: 新闻
+       url: 'post'
+       weight: 20
+     - name: 成员
+       url: 'people'
+       weight: 30
+     - name: 项目
+       url: 'project'
+       weight: 35
+     - name: 出版
+       url: 'publication'
+       weight: 40
+     - name: 联系我们
+       url: '#contact'
+       weight: 50
+     - name: 登录
+       url: http://dskezju.github.io/workspace/
+       weight: 60
