@@ -26,8 +26,8 @@ education:
   - course: 浙江大学计算机科学与技术学院20级博士生
     institution: 浙江大学
     year: 至今
-  - course: 专业学士学位
-    institution: 浙江大学
+  - course: BSc in 
+    institution: ZJU-UIUC Campus
     year: 2020
 
 # Social/Academic Networking

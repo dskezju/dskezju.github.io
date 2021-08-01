@@ -15,10 +15,9 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: 本科毕业于浙江大学伊利诺伊大学厄巴纳香槟校区联合学院，目前在浙江大学计算机科学与技术学院攻读博士学位。
 
-
 interests:
-- 人工智能
-
+- 深度学习
+- 自然语言处理
 
 education:
   courses:
@@ -26,7 +25,7 @@ education:
     institution: 浙江大学
     year: 至今
   - course: BSc in Electronic and Computer Engineering
-    institution: ZJU-UIUC
+    institution: ZJU-UIUC Campus
     year: 2020
 
 # Social/Academic Networking
@@ -58,4 +57,6 @@ highlight_name: false
 user_groups:
 - 博士研究生
 ---
-陶舒婷，本科毕业于浙江大学伊利诺伊大学厄巴纳香槟校区联合学院，目前在浙江大学计算机科学与技术学院攻读博士学位。
+陶舒婷，浙江大学计算机科学与技术学院2021级博士生。本科就读于浙江大学伊利诺伊大学厄巴纳香槟校区联合学院计算机工程专业。
+
+我的研究兴趣是深度学习和自然语言处理。个人爱好是旅行和散步。希望大家多多指教。

@@ -14,10 +14,9 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 研究兴趣为
+bio: 主要兴趣方向为自然语言处理和知识图谱。个人爱好是羽毛球和电影。
 
 interests:
-- 深度学习
 - 自然语言处理
 - 知识图谱
 
@@ -26,7 +25,7 @@ education:
   - course: 电子信息专业2020级硕士生
     institution: 浙江大学
     year: 至今
-  - course: 学士学位
+  - course: 网络工程专业学士学位
     institution: 浙江工商大学
     year: 2019
 
@@ -59,4 +58,6 @@ highlight_name: false
 user_groups:
 - 硕士研究生
 ---
-浙江大学国际联合学院电子信息专业的20级硕士生。
+马祖扬，浙江大学伊利诺伊大学厄巴纳香槟校区联合学院电子信息专业2020级研究生。本科就读于浙江工商大学网络工程专业。
+
+他的主要兴趣方向为自然语言处理和知识图谱。个人爱好是羽毛球和电影。

@@ -6,7 +6,10 @@ title: "IDS-ZJUI Research Group"
 subtitle: ""
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns: '2'
+  columns: '1'
+
+# Activate this widget? true/false
+active: false
 
 # Slide interval.
 # Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
@@ -34,16 +37,5 @@ item:
     cta_url: 'post/本科生勇夺高水平国际会议最佳论文奖'
     cta_icon_pack: fas
     cta_icon: graduation-cap
-  - title: Left
-    content: ''
-    align: bottom
-    overlay_color: '#555'
-    overlay_img: img/news/2019-icebe-best-paper/news_1.png
-    # overlay_filter: 0.5
-  - title: Right
-    content: 'I am right aligned 😄'
-    align: center
-    overlay_color: '#333'
-    overlay_img: img/news/2019-icebe-best-paper/news_1.png
-    # overlay_filter: 0.5
+
 ---

@@ -14,7 +14,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 主要研究智能化设计与制造方向，探究智能制造技术、人工智能技术及知识图谱技术的深度融合。已发表一篇大数据相关的会议论文。
+bio: 他致力于研究将知识图谱技术与工业领域深度融合。他的业余爱好是篮球。
 
 interests:
 - 智能化设计与制造
@@ -25,8 +25,8 @@ education:
   - course: 机械工程专业2020级硕士生
     institution: 浙江工业大学
     year: 至今
-  - course: 学士学位
-    institution: 浙江工业大学
+  - course: 机械工程学士学位
+    institution: 太原科技大学
     year: 2018
 
 # Social/Academic Networking
@@ -58,4 +58,4 @@ highlight_name: false
 user_groups:
 - 硕士研究生
 ---
-张宇飞，就读于浙江工业大学机械工程专业，主要研究智能化设计与制造方向，探究智能制造技术、人工智能技术及知识图谱技术的深度融合。已发表一篇大数据相关的会议论文。
+张宇飞，浙江工业大学机械工程专业硕士研究生。他从太原科技大学获得学士学位，目前的主要研究方向是智能设计与知识图谱，参与中国核电项目与航天重点实验室项目，已发表1篇EI论文、1篇中文核心论文和多篇学术会议论文。他致力于研究将知识图谱技术与工业领域深度融合。他的业余爱好是篮球。
