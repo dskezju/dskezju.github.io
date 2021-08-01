@@ -28,6 +28,10 @@ education:
   - course: 软件工程专业工程硕士学位
     institution: 杭州师范大学
     year: 2021
+  - course: 计算机科学与技术专业学士学位
+    institution: 浙江警察学院
+    year: 2018
+   
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
