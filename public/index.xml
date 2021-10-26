@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IDS-ZJUI</title>
+    <link>https://dskezju.github.io/</link>
+      <atom:link href="https://dskezju.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>IDS-ZJUI</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dskezju.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>IDS-ZJUI</title>
+      <link>https://dskezju.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Example Event</title>
+      <link>https://dskezju.github.io/event/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://dskezju.github.io/event/example/</guid>
+      <description>&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including page elements such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>知识工程与知识系统2021年秋季团队建设暨团队组会顺利召开</title>
+      <link>https://dskezju.github.io/post/%E7%9F%A5%E8%AF%86%E5%B7%A5%E7%A8%8B%E4%B8%8E%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F2021%E5%B9%B4%E7%A7%8B%E5%AD%A3%E5%9B%A2%E9%98%9F%E5%BB%BA%E8%AE%BE%E6%9A%A8%E5%9B%A2%E9%98%9F%E7%BB%84%E4%BC%9A%E9%A1%BA%E5%88%A9%E5%8F%AC%E5%BC%80/</link>
+      <pubDate>Sun, 17 Oct 2021 14:00:00 +0000</pubDate>
+      <guid>https://dskezju.github.io/post/%E7%9F%A5%E8%AF%86%E5%B7%A5%E7%A8%8B%E4%B8%8E%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F2021%E5%B9%B4%E7%A7%8B%E5%AD%A3%E5%9B%A2%E9%98%9F%E5%BB%BA%E8%AE%BE%E6%9A%A8%E5%9B%A2%E9%98%9F%E7%BB%84%E4%BC%9A%E9%A1%BA%E5%88%A9%E5%8F%AC%E5%BC%80/</guid>
+      <description>&lt;p&gt;2021年10月17日下午14：00，浙江大学知识工程与知识系统团队王宏伟老师和全体成员在杭州召开2021年秋季团队组会和团队建设会议。&lt;/p&gt;
+&lt;p&gt;参加本次活动的人员包括团队负责人王宏伟老师、北京科技大学彭功状老师、清华大学博士生彭鹏以及知识工程与知识系统团队全体成员，采用线上线下结合的方式，举办一场独特的团队建设及组会活动。&lt;/p&gt;
+&lt;p&gt;首先，王宏伟老师对团队的基本情况进行了介绍，包括团队的基本成员、团队的研究方向以及主要研究课题。此外，王宏伟老师对团队齐心协力成功组织科技部重点研发项目2021年度督导会的筹备工作表示肯定，各团队成员团结合作、互相配合的工作方式充分体现了团队的凝聚力和支撑力。同时王老师也提出希望团队全体成员要明确自己的路线与研究方向，多多开展团队内协作，在各位成员的努力下将团队建设得更好。&lt;/p&gt;
+&lt;div style=&#39;text-align:center&#39;&gt;
+  &lt;img src=&#39;1.jpg&#39; alt=&#39;&#39;&gt;
+&lt;/div&gt;
+&lt;p&gt;随后，团队开展定期的组会，由科研助理张宇飞进行知识分享，团队项目相关负责同学谢庭玉、李梦璇、王海波、张键等分别进行项目进度的汇报与规划，彭功状老师和王宏伟老师从项目及科研背景出发，对项目工作的开展给予指导。&lt;/p&gt;
+&lt;div style=&#39;text-align:center&#39;&gt;
+  &lt;img src=&#39;2.jpg&#39; alt=&#39;&#39;&gt;
+&lt;/div&gt;
+&lt;p&gt;为促进团队成员之间的相互了解，每位成员进行了简短的自我介绍，包括个人的研究方向、兴趣爱好等。通过交流，发现相同兴趣爱好的伙伴，也能为科研之余的生活增添不少的乐趣。最后，王宏伟老师为各位同学提出希望和要求，针对如何成长为一名不断成长进步的研究生给出具体建议。&lt;/p&gt;
+&lt;div style=&#39;text-align:center&#39;&gt;
+  &lt;img src=&#39;3.jpg&#39; alt=&#39;&#39;&gt;
+&lt;/div&gt;
+&lt;p&gt;通过这样一次团队建设会，促进了成员之间的交流，增强了成员之间的熟悉度，为团队各项工作的顺利推进提供了一个良好的氛围。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ZJUI王宏伟团队成功获得科技部国家重点研发计划项目资助</title>
+      <link>https://dskezju.github.io/post/zjui%E7%8E%8B%E5%AE%8F%E4%BC%9F%E5%9B%A2%E9%98%9F%E6%88%90%E5%8A%9F%E8%8E%B7%E5%BE%97%E7%A7%91%E6%8A%80%E9%83%A8%E5%9B%BD%E5%AE%B6%E9%87%8D%E7%82%B9%E7%A0%94%E5%8F%91%E8%AE%A1%E5%88%92%E9%A1%B9%E7%9B%AE%E8%B5%84%E5%8A%A9/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://dskezju.github.io/post/zjui%E7%8E%8B%E5%AE%8F%E4%BC%9F%E5%9B%A2%E9%98%9F%E6%88%90%E5%8A%9F%E8%8E%B7%E5%BE%97%E7%A7%91%E6%8A%80%E9%83%A8%E5%9B%BD%E5%AE%B6%E9%87%8D%E7%82%B9%E7%A0%94%E5%8F%91%E8%AE%A1%E5%88%92%E9%A1%B9%E7%9B%AE%E8%B5%84%E5%8A%A9/</guid>
+      <description>&lt;p&gt;2020年12月， ZJUI研究员、副教授王宏伟参与的“制造业多价值链协同数据空间设计理论与方法”项目获得国家科技部重点研发计划2020年“网络协同制造和智能工厂” 重点专项立项资助。该项目是重点专项里为数不多的基础前沿与关键技术类项目，申报难度非常大，项目组包含来自华北电力大学、浙江大学、清华大学、 东北电力大学和北京清畅电力技术股份有限公司的团队。王宏伟团队负责其中的“多价值链协同知识服务引擎技术与方法”课题。该研究将基于知识关联、 知识图谱、深度学习、迁移学习及自然语言处理等方法，系统地探索设计支持多价值链协同数据空间的知识服务引擎架构、智能知识挖掘、 动态知识服务等基础理论和核心方法，从而为多价值链协同知识的服务引擎构建提供核心技术支撑。&lt;/p&gt;
+&lt;p&gt;该项目聚焦我国制造业智能化转型升级的核心关键技术，旨在以在典型电力装备制造企业的工程应用验证，实现推广应用到其它行业制造企业的愿景，促进我国制造业发展， 提高制造产业竞争力。项目研究也致力于解决制造业面临的数据冗余、数字资源闲置、综合效益较差等突出问题，以先进的理论和方法支持制造企业中的多价值链协同数据的知识挖掘和重用， 以知识为支撑较大程度提高制造企业智能化管理水平、综合竞争力和综合效益，产生重大的理论和应用成果，形成示范效应，引领前沿发展。同时，课题的实施将全过程贯彻绿色制造理论， 通过多价值链协同数据的全生命周期管理，以动态、高效、准确的数据共享与集成缩短供应链、降低碳排放，使项目成果发挥显著的生态效益。&lt;/p&gt;
+&lt;p&gt;王宏伟长期从事关于人工智能与信息技术应用于复杂系统设计、分析、制造和维护的研究，过去两年在系统设计、知识工程、多学科智能协同仿真、 复杂系统监测和故障诊断等方面取得丰富成果。在IEEE Trans. on Services Computing, Neurocomputing, Advanced Engineering Informatics等领域内顶级期刊发表10余篇高影响论文。 2020年以来先后获航天重点实验室基金、浙大-UIUC国际联合研究、吴文俊人工智能科学技术奖等多项科研资助和奖励。王宏伟领导建立的“知识驱动的智能设计制造与运维” 团队以浙江大学和浙大国际校区为平台，与剑桥大学、UIUC、清华大学等国内外高校建立深度合作，努力打造知识驱动“互联网+先进制造业”的新一代人工智能技术。加入ZJUI两年多来， 王宏伟还取得了丰硕的学生培养成果，先后指导SRTP项目5项，其中国家级项目2项、省级项目1项，其指导的本科生先后获得IEEE ICEBE国际会议的最佳论文奖、 美国数学建模和亚太数学建模竞赛等国际奖项，其中杜扬恺同学获得浙江大学“启真杯”提名奖。&lt;/p&gt;
+&lt;div style=&#39;text-align:center&#39;&gt;
+  &lt;img src=&#39;2.png&#39; alt=&#39;&#39;&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ZJUI王宏伟荣获“吴文俊人工智能奖”自然科学奖</title>
+      <link>https://dskezju.github.io/post/zjui%E7%8E%8B%E5%AE%8F%E4%BC%9F%E8%8D%A3%E8%8E%B7%E5%90%B4%E6%96%87%E4%BF%8A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A5%96%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E5%A5%96/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://dskezju.github.io/post/zjui%E7%8E%8B%E5%AE%8F%E4%BC%9F%E8%8D%A3%E8%8E%B7%E5%90%B4%E6%96%87%E4%BF%8A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A5%96%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E5%A5%96/</guid>
+      <description>&lt;p&gt;2020年12月1日，ZJUI王宏伟教授作为第一完成人申报的项目“知识驱动的信息物理系统智能建模与协同仿真” 入围2020年度第十届吴文俊人工智能自然科学奖三等奖（公示期至12月10日）。王宏伟是ZJUI信息系统及数据科学研究部执行主任， 加入学院以来一直聚焦人工智能技术的研究工作。&lt;/p&gt;
+&lt;p&gt;被誉为“中国智能科学技术最高奖”的“吴文俊人工智能科学技术奖”以中国智能科学研究的开拓者和领军人、首届国家最高科学技术奖获得者吴文俊命名， 经科学技术部核准设立，由中国人工智能学会发起主办，代表了中国人工智能学界的重大突破与最高荣誉。该奖项遴选过程极为严格，竞争也格外激烈， 本次全国仅有20个项目从众多候选项目中脱颖而出入围吴文俊人工智能自然科学奖。&lt;/p&gt;
+&lt;p&gt;王宏伟聚焦“知识驱动的信息物理系统智能建模与协同仿真”项目多年，与清华大学、剑桥大学等高校团队进行合作，取得了丰富的成果。 项目通过物理信息系统CPS的智能设计与协同仿真，以各类大数据资源、高性能计算能力和智能算法为基础，与能源、航空航天等专业领域的问题深度融合， 提出了支持复杂系统协同建模仿真和智能信息融合的整套模型和方法体系。围绕复杂CPS系统的智能建模， 创新地研究了协同仿真中稳定性精度和速度等要素相均衡的基础理论和科学方法，并以先进的智能算法为基础提出解决方案。&lt;/p&gt;
+&lt;p&gt;该项目的研究工作也是ZJUI信息系统及数据科学研究方向的重要部分。目前王宏伟负责带领该学科方向与美国UIUC建立起自适应柔性CPS制造网络联合研究。 加盟ZJUI后，王宏伟创建了ZJUI知识工程与知识系统研究团队，目前已经有10多位研究人员，与中国核能电力股份有限公司、 中国航天科工集团等企业进行合作，聚焦知识驱动的大型工程设备的智能设计、制造与运维研究工作，先后获得科技部重点研发项目和航天预研项目等项目支持， 产出丰富的科研成果。&lt;/p&gt;
+&lt;div style=&#39;text-align:center&#39;&gt;
+  &lt;img src=&#39;1.png&#39; alt=&#39;&#39;&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>制造业多价值链协同数据空间设计理论与方法</title>
+      <link>https://dskezju.github.io/project/%E5%88%B6%E9%80%A0%E4%B8%9A%E5%A4%9A%E4%BB%B7%E5%80%BC%E9%93%BE%E5%8D%8F%E5%90%8C%E6%95%B0%E6%8D%AE%E7%A9%BA%E9%97%B4%E8%AE%BE%E8%AE%A1%E7%90%86%E8%AE%BA%E4%B8%8E%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://dskezju.github.io/project/%E5%88%B6%E9%80%A0%E4%B8%9A%E5%A4%9A%E4%BB%B7%E5%80%BC%E9%93%BE%E5%8D%8F%E5%90%8C%E6%95%B0%E6%8D%AE%E7%A9%BA%E9%97%B4%E8%AE%BE%E8%AE%A1%E7%90%86%E8%AE%BA%E4%B8%8E%E6%96%B9%E6%B3%95/</guid>
+      <description>&lt;p&gt;2020年12月， ZJUI研究员、副教授王宏伟参与的“制造业多价值链协同数据空间设计理论与方法”项目获得国家科技部重点研发计划2020年“网络协同制造和智能工厂” 重点专项立项资助。该项目是重点专项里为数不多的基础前沿与关键技术类项目，申报难度非常大，项目组包含来自华北电力大学、浙江大学、清华大学、 东北电力大学和北京清畅电力技术股份有限公司的团队。王宏伟团队负责其中的“多价值链协同知识服务引擎技术与方法”课题。该研究将基于知识关联、 知识图谱、深度学习、迁移学习及自然语言处理等方法，系统地探索设计支持多价值链协同数据空间的知识服务引擎架构、智能知识挖掘、 动态知识服务等基础理论和核心方法，从而为多价值链协同知识的服务引擎构建提供核心技术支撑。&lt;/p&gt;
+&lt;p&gt;该项目聚焦我国制造业智能化转型升级的核心关键技术，旨在以在典型电力装备制造企业的工程应用验证，实现推广应用到其它行业制造企业的愿景，促进我国制造业发展， 提高制造产业竞争力。项目研究也致力于解决制造业面临的数据冗余、数字资源闲置、综合效益较差等突出问题，以先进的理论和方法支持制造企业中的多价值链协同数据的知识挖掘和重用， 以知识为支撑较大程度提高制造企业智能化管理水平、综合竞争力和综合效益，产生重大的理论和应用成果，形成示范效应，引领前沿发展。同时，课题的实施将全过程贯彻绿色制造理论， 通过多价值链协同数据的全生命周期管理，以动态、高效、准确的数据共享与集成缩短供应链、降低碳排放，使项目成果发挥显著的生态效益。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>复杂产品制造领域知识自动构建与推理决策技术及应用</title>
+      <link>https://dskezju.github.io/project/%E5%A4%8D%E6%9D%82%E4%BA%A7%E5%93%81%E5%88%B6%E9%80%A0%E9%A2%86%E5%9F%9F%E7%9F%A5%E8%AF%86%E8%87%AA%E5%8A%A8%E6%9E%84%E5%BB%BA%E4%B8%8E%E6%8E%A8%E7%90%86%E5%86%B3%E7%AD%96%E6%8A%80%E6%9C%AF%E5%8F%8A%E5%BA%94%E7%94%A8/</link>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://dskezju.github.io/project/%E5%A4%8D%E6%9D%82%E4%BA%A7%E5%93%81%E5%88%B6%E9%80%A0%E9%A2%86%E5%9F%9F%E7%9F%A5%E8%AF%86%E8%87%AA%E5%8A%A8%E6%9E%84%E5%BB%BA%E4%B8%8E%E6%8E%A8%E7%90%86%E5%86%B3%E7%AD%96%E6%8A%80%E6%9C%AF%E5%8F%8A%E5%BA%94%E7%94%A8/</guid>
+      <description>&lt;h3 id=&#34;11研究目的意义&#34;&gt;1.1研究目的、意义&lt;/h3&gt;
+&lt;p&gt;人工智能技术、知识工程等技术使得工业数据知识化重用可实现，但制造领域积累的大规模数据来自不同企业、不同单位、不同车间系统，甚至不同领域或第三方平台的数据积累，以不同的格式存储在本地或云端存储中，数据往往处于垂直孤立、分散冗余状态，而单一层级的数据难以满足实际应用。通过数据库的解决方案为数据的规范化组织提供更高的可用性和集中性，但海量的数据使数据库的规模庞大，立足于共享经济下，信息的隐藏更加困难。因此&lt;strong&gt;本课题立足全产业链协同工作流，研究不同数据源之间的关联关系，形成跨学科数据共享的协同关系网，构建一致性数据知识模型，为复杂知识服务应用提供基础。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;工业上海量的数据中，如航天领域的产品设计档案、船舶领域的航运记录、核电领域的机组运行记录等相关数据，往往以UG、DWT、JPG、WORD、CSV、PDF等格式，甚至一些WAV、MPEG等媒体格式的文件存储，且文件的内部数据格式随着企业管理的改革和技术的革新动态调整，导致规范结构的数据和领域知识子样匮乏，而自动化知识抽取的研究多基于有监督的学习模型进行知识抽取，需要大量规范数据标注集合去训练模型，耗费的人力资源成本巨大，且模型的可移植性差。不同的数据源中，不仅需要解决不同数据源之间的语义冲突，还需解决跨媒体数据的语义层面的耦合，因此&lt;strong&gt;本课题立足复杂数据空间，研究知识抽取和知识融合的方法，挖掘复杂产品全寿命周期中的知识，解决多源、跨学科、跨媒体数据的不融合、不共享问题，并通过知识推理技术，构建完善的领域知识图谱。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;互联网技术实现以网页为主要形式的服务平台，为业务办理和服务搜索提供极大的便利。围绕信息源和信息检索方式，为用户提供个性化的服务，知识服务作为知识服务平台构建的基础和关键，实现数据知识的积累和重用。现有的知识服务集中电商知识服务领域或公共知识服务领域，对于专业化领域，多应用于简短知识元的检索、推理，难以实现复杂请求的服务匹配，在领域知识支持的服务决策应用上，由于决策依赖于规则和知识体系中直接关系，难以依据多个决策变量形成决策反馈，对于复杂产品全寿命周期过程中复杂的应用环境和不确定性，耗费巨大的成本、资源和时间。&lt;strong&gt;本课题以知识图谱为知识服务源，研究语义情境识别技术，挖掘用户的潜在语义信息，实现个性化的知识检索和推荐。面向复杂应用背景，研究多目标决策和群决策理论和方法，构建协同式交互决策模型，并搭建智能服务平台，为智能决策应用提供研究基础。&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>经验反馈数据挖掘与应用研究项目</title>
+      <link>https://dskezju.github.io/project/%E7%BB%8F%E9%AA%8C%E5%8F%8D%E9%A6%88%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E4%B8%8E%E5%BA%94%E7%94%A8%E7%A0%94%E7%A9%B6%E9%A1%B9%E7%9B%AE/</link>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://dskezju.github.io/project/%E7%BB%8F%E9%AA%8C%E5%8F%8D%E9%A6%88%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E4%B8%8E%E5%BA%94%E7%94%A8%E7%A0%94%E7%A9%B6%E9%A1%B9%E7%9B%AE/</guid>
+      <description>&lt;h3 id=&#34;11需求背景&#34;&gt;1.1需求背景&lt;/h3&gt;
+&lt;p&gt;秦山核电基地经过多堆年的运行，在现有已建设投用的经验反馈系统中积累了大量内、外部经验反馈数据和业务数据，比如：状态报告（CR）、由状态报告开发出的运行事件报告、内部事件报告、纠正行动计划、JIT（及时经验反馈）、工单信息（包含工单任务、风险分析、完工报告等）、QDR（质量缺陷报告）等。这些数据均分散在不同的业务系统中，没有得到有效的整合，业务部门主要通过经验反馈处的定期推送和自身的主动检索进行学习，但定期推送无法满足业务人员对当前工作中历史经验反馈的实时需求，且目前的检索方式不太智能和精准，往往得不到最想要的经验反馈数据信息。因此现状是：经验反馈数据资源的利用效率低，数据挖掘的层次较低、深度不够，未能将这些数据资源全面转化为提升企业竞争力的数据资产。为了更好的利用这些数据资源，让其转化为越来越有价值的企业资产，需要对该部分的数据进行进一步分析与应用，以便实现广义经验反馈数据的深度挖掘和利用，同时借鉴人工智能、机器学习技术，实现经验反馈案例的精准检索和精准推送，促进经验反馈信息得到有效的利用。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>本科生勇夺高水平国际会议最佳论文奖</title>
+      <link>https://dskezju.github.io/post/%E6%9C%AC%E7%A7%91%E7%94%9F%E5%8B%87%E5%A4%BA%E9%AB%98%E6%B0%B4%E5%B9%B3%E5%9B%BD%E9%99%85%E4%BC%9A%E8%AE%AE%E6%9C%80%E4%BD%B3%E8%AE%BA%E6%96%87%E5%A5%96/</link>
+      <pubDate>Mon, 21 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://dskezju.github.io/post/%E6%9C%AC%E7%A7%91%E7%94%9F%E5%8B%87%E5%A4%BA%E9%AB%98%E6%B0%B4%E5%B9%B3%E5%9B%BD%E9%99%85%E4%BC%9A%E8%AE%AE%E6%9C%80%E4%BD%B3%E8%AE%BA%E6%96%87%E5%A5%96/</guid>
+      <description>&lt;p&gt;ZJUI 2017级电子与计算机工程专业本科生杜扬恺、黄家源、陶舒婷2019年暑期完成的合作论文&lt;strong&gt;Knowledge Graph Construction and Reasoning for Intelligent Maintenance of Power Plants&lt;/strong&gt;，日前已被国际学术会议&lt;strong&gt;The International Conference on e-Business Engineering (ICEBE)正式收录&lt;/strong&gt;，指导老师为&lt;strong&gt;王宏伟&lt;/strong&gt;副教授。本次国际会议根据同行评议审稿结果从近百篇论文中仅选出13篇推荐为长文发表，该论文一举成为13篇长文之一并获得审稿专家一致好评。&lt;/p&gt;
+&lt;div style=&#39;text-align:center&#39;&gt;
+  &lt;!-- xxx --&gt;
+  &lt;img src=&#39;news_1.png&#39; alt=&#39;&#39;&gt;
+  &lt;img src=&#39;Paper_1.jpg&#39; alt=&#39;&#39; style=&#39;margin-left:0;&#39;/&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example preprint / working paper</title>
+      <link>https://dskezju.github.io/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://dskezju.github.io/publication/preprint/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link>https://dskezju.github.io/publication/journal-article/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://dskezju.github.io/publication/journal-article/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>https://dskezju.github.io/publication/conference-paper/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://dskezju.github.io/publication/conference-paper/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://dskezju.github.io/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dskezju.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://dskezju.github.io/people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dskezju.github.io/people/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

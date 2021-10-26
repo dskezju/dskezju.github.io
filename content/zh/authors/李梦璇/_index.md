@@ -26,7 +26,7 @@ education:
   - course: 浙江大学计算机科学与技术学院20级博士生
     institution: 浙江大学
     year: 至今
-  - course: BSc in 
+  - course: BSc in ECE
     institution: ZJU-UIUC Campus
     year: 2020
 

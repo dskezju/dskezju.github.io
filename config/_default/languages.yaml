@@ -3,10 +3,10 @@
 #   Documentation: https://wowchemy.com/docs/guide/language/
 
 # Default language
-en:
-  languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  contentDir: content/en
+# en:
+#   languageCode: en-us
+#   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+#   contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
 zh:
@@ -35,6 +35,6 @@ zh:
      - name: 联系我们
        url: '#contact'
        weight: 50
-     - name: 登录
-       url: http://dskezju.github.io/workspace/
-       weight: 60
+    #  - name: 登录
+    #    url: http://dskezju.github.io/workspace/
+    #    weight: 60
