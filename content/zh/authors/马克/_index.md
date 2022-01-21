@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 张宇飞
+title: 马克
 
 # Is this the primary user of the site?
 superuser: false
@@ -14,20 +14,20 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 他致力于研究将知识图谱技术与工业领域深度融合。他的业余爱好是篮球。
+bio: 从UCB土木工程硕士毕业，目前任职于科研助理，从事人工智能方面的研究。
 
 interests:
-- 智能化设计与制造
+- 人工智能
 - 知识图谱
 
 education:
   courses:
-  - course: 机械工程专业2020级硕士生
-    institution: 浙江工业大学
+  - course: 科研助理
+    institution: 浙江大学
     year: 至今
-  - course: 机械工程学士学位
-    institution: 太原科技大学
-    year: 2018
+  - course: Master of Civil Engineering
+    institution: University of California Berkeley
+    year: 2021
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -58,4 +58,4 @@ highlight_name: false
 user_groups:
 - 科研助理
 ---
-张宇飞，浙江工业大学机械工程专业硕士研究生。他从太原科技大学获得学士学位，目前的主要研究方向是智能设计与知识图谱，参与中国核电项目与航天重点实验室项目，已发表1篇EI论文、1篇中文核心论文和多篇学术会议论文。他致力于研究将知识图谱技术与工业领域深度融合。他的业余爱好是篮球。
+2021年从UCB土木工程硕士毕业，目前任职于科研助理，从事知识图谱与计算机工程的研究。

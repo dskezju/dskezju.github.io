@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>马克 | DSKE-ZJUI</title>
+    <link>https://dskezju.github.io/author/%E9%A9%AC%E5%85%8B/</link>
+      <atom:link href="https://dskezju.github.io/author/%E9%A9%AC%E5%85%8B/index.xml" rel="self" type="application/rss+xml" />
+    <description>马克</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language>
+    <image>
+      <url>https://dskezju.github.io/author/%E9%A9%AC%E5%85%8B/avatar_huc049c646f8a8bbafad51f5a9ab78db33_104786_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>马克</title>
+      <link>https://dskezju.github.io/author/%E9%A9%AC%E5%85%8B/</link>
+    </image>
+    
+  </channel>
+</rss>
