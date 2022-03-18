@@ -6,7 +6,7 @@ title: 王宏伟
 superuser: true
 
 # Role/position
-role: 研究员
+role: 长聘教授
 
 # Organizations/Affiliations
 organizations:
@@ -24,7 +24,7 @@ interests:
 
 education:
   courses:
-  - course: 浙江大学伊利诺伊大学厄巴纳香槟校区联合学院研究员
+  - course: 浙江大学伊利诺伊大学厄巴纳香槟校区联合学院长聘教授
     institution: 浙江大学
     year: 至今
   - course: 工学院永久职位副教授
