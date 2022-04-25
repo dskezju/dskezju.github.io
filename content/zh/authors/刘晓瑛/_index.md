@@ -22,10 +22,10 @@ interests:
 
 education:
   courses:
-  - course: 仪器仪表工程专业2019级硕士生
+  - course: 仪器仪表工程专业硕士
     institution: 浙江大学
-    year: 至今
-  - course: 电气工程及其自动化学士学位
+    year: 2022
+  - course: 电气工程及其自动化学士
     institution: 华南理工大学
     year: 2019
 
@@ -33,13 +33,13 @@ education:
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social:
-- icon: user
-  icon_pack: fas
-  link: 'mailto:test@example.org'
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?hl=en&user=lFbTT5AAAAAJ
+# social:
+# - icon: user
+#   icon_pack: fas
+#   link: 'mailto:test@example.org'
+# - icon: google-scholar
+#   icon_pack: ai
+#   link: https://scholar.google.com/citations?hl=en&user=lFbTT5AAAAAJ
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -56,7 +56,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 硕士研究生
+- 已毕业校友
 ---
 浙江大学生物医学工程与仪器科学学院硕士生。于华南理工大学电气工程及其自动化专业获得学士学位。
 
