@@ -5,12 +5,50 @@
     <link>https://dskezju.github.io/post/</link>
       <atom:link href="https://dskezju.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Sat, 16 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Mon, 09 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dskezju.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://dskezju.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>ZJU知识工程与知识系统课题组论文《基于资源流的云制造研究综述》被华中科技大学学报（自然科学版）录用</title>
+      <link>https://dskezju.github.io/post/zju%E7%9F%A5%E8%AF%86%E5%B7%A5%E7%A8%8B%E4%B8%8E%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E9%A2%98%E7%BB%84%E8%AE%BA%E6%96%87%E5%9F%BA%E4%BA%8E%E8%B5%84%E6%BA%90%E6%B5%81%E7%9A%84%E4%BA%91%E5%88%B6%E9%80%A0%E7%A0%94%E7%A9%B6%E7%BB%BC%E8%BF%B0%E8%A2%AB%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E5%AD%A6%E6%8A%A5%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E7%89%88%E5%BD%95%E7%94%A8/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://dskezju.github.io/post/zju%E7%9F%A5%E8%AF%86%E5%B7%A5%E7%A8%8B%E4%B8%8E%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E9%A2%98%E7%BB%84%E8%AE%BA%E6%96%87%E5%9F%BA%E4%BA%8E%E8%B5%84%E6%BA%90%E6%B5%81%E7%9A%84%E4%BA%91%E5%88%B6%E9%80%A0%E7%A0%94%E7%A9%B6%E7%BB%BC%E8%BF%B0%E8%A2%AB%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E5%AD%A6%E6%8A%A5%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E7%89%88%E5%BD%95%E7%94%A8/</guid>
+      <description>&lt;p&gt;ZJU知识工程与知识系统课题组成员王宏伟、张宇飞和燕凯宏围绕资源流对云制造相关研究展开定性和定量分析，准确把握云制造研究现状与发展趋势，独创性地结合高新技术提出云制造新模式，并完成论文《基于资源流的云制造研究综述》的撰写。论文已被《华中科技大学学报（自然科学版）》录用。《华中科技大学学报（自然科学版）》是由华中科技大学主办、教育部主管的综合性科学技术类学术刊物，已被北大核心期刊目录及包括《EI Compendex》在内的30余家权威文摘期刊和重要数据库收录。&lt;/p&gt;
+&lt;h4 style=&#34;text-align:center;&#34;&gt;摘要&lt;/h4&gt;
+&lt;p&gt;为全面了解云制造的研究现状以及未来发展趋势，以云制造系统运行过程中的资源流为主线对其研究成果进行综述。结合文献计量法和引文分析法，对从Web of Science与中国知识基础资源数据库检索到的文献成果进行定量和定性分析。首先阐述云制造理论研究基础，然后分析资源流动过程中资源服务化和资源配置阶段的研究现状，总结各个阶段的研究现状和不足；讨论新技术的应用及面临的挑战，并对未来的研究方向作展望。&lt;/p&gt;
+&lt;h4 style=&#34;text-align:center;&#34;&gt;1.  研究背景&lt;/h4&gt;
+&lt;p&gt;制造业是强国之基，从根本上体现一个国家的综合实力和国际竞争力。资源作为云制造环境中的核心元素，以数字的形式进行通信与交互，以服务的形式被访问与管理，其实质可被归纳为社会市场中不同场景下，资源在接入、配置与服务等过程中发生的一系列状态、位置、价值、能量等的变化。本文以云制造为研究对象，以资源流为研究主线展开云制造研究的综述，对掌握云制造的当前现状、把握云制造的发展趋势具有重要的现实意义。&lt;/p&gt;
+&lt;h4 style=&#34;text-align:center;&#34;&gt;2.  研究内容&lt;/h4&gt;
+&lt;p&gt;本文对比当前已有的综述文献，综合定性分析与定量分析，对2010-2022年期间云制造领域发表的相关文献展开综述研究。&lt;/p&gt;
+&lt;div style=&#39;text-align:center;&#39;&gt;
+  &lt;!-- &lt;div style=&#39;text-align:center; float:left; padding:0; margin:0;height:50%;width:50%;&#39;&gt;
+    &lt;img style=&#34;padding:0;margin:0 10px 10px 100px;width:50%;height:50%&#34; src=&#39;1.png&#39; alt=&#39;&#39;&gt;
+    &lt;br/&gt;
+    &lt;p style=&#39;font-size:14px&#39;&gt;图1  云制造相关文献数量的增长趋势图&lt;/p&gt;
+  &lt;/div&gt; --&gt;
+  &lt;img style=&#34;width:80%;height:80%&#34; src=&#39;1.png&#39; alt=&#39;&#39;&gt;
+  &lt;p&gt;图1  云制造相关文献数量的增长趋势图&lt;/p&gt;
+  &lt;img style=&#34;width:80%;height:80%&#34;  src=&#39;2.png&#39; alt=&#39;&#39;&gt;
+  &lt;p&gt;图2  云制造研究相关术语分布图&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;本文创新性围绕云制造系统运行过程关键主线——资源流，如图3所示，从云制造理论基础、云制造资源服务化与资源配置等方向分析云制造研究发展的现状与不足。&lt;/p&gt;
+&lt;div style=&#39;text-align:center;&#39;&gt;
+  &lt;img style=&#34;margin-bottom:0&#34; src=&#39;3.jpg&#39; alt=&#39;&#39;&gt;
+  &lt;p style=&#34;text-align:center&#34;&gt;图3  云制造系统运行原理&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;云制造作为多技术融合的体系，整合工业互联网、云计算为基础技术，结合5G技术、知识图谱、数字孪生等高新科学技术，以3D打印为例，构建如图4所示的云制造模式新体系。&lt;/p&gt;
+&lt;div style=&#39;text-align:center&#39;&gt;
+  &lt;img style=&#34;margin-bottom:0&#34; src=&#39;4.jpg&#39; alt=&#39;&#39;&gt;
+  &lt;p style=&#34;text-align:center&#34;&gt;图4  云制造新模式案例&lt;/p&gt;
+&lt;/div&gt;
+&lt;h4 style=&#34;text-align:center;&#34;&gt;3. 研究结论&lt;/h4&gt;
+&lt;p&gt;云制造模式以共享、协作、服务等为核心理念，彻底打破传统制造业的束缚，为全球化制造提供高效协作和资源共享的新模式。云制造模式提供产品设计、产品研发、生产制造、产品检测、物流配输、运维管理、售后服务等产品全生命周期服务，建设一站式解决的协同制造平台，打造制造与服务相结合的产业模式，打破传统制造业的时间和空间上的限制，最大化降低资源管理运营成本，提高社会资源利用率。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>国家重点研发计划“制造业多价值链协同数据空间设计理论与方法”课题中期检查会顺利召开</title>

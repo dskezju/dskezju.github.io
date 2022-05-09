@@ -40,7 +40,7 @@ tags:
 categories:
 - srtp
 - 获奖
-- 论文
+- 论文发表
 - 会议论文
 ---
 

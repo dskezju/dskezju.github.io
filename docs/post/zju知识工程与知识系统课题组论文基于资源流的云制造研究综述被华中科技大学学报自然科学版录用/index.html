@@ -1,0 +1,1177 @@
+<!DOCTYPE html><html lang="zh-Hans" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.2.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="王宏伟" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="ZJU知识工程与知识系统课题组成员王宏伟、张宇飞和燕凯宏围绕资源流对云制造相关研究展开定性和定量分析，准确把握云制造研究现状与发展趋势，独创性地结合高新技术提出云制造新模式，并完成论文《基于资源流的云制造研究综述》的撰写。" />
+
+  
+  <link rel="alternate" hreflang="zh-Hans" href="https://dskezju.github.io/post/zju%E7%9F%A5%E8%AF%86%E5%B7%A5%E7%A8%8B%E4%B8%8E%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E9%A2%98%E7%BB%84%E8%AE%BA%E6%96%87%E5%9F%BA%E4%BA%8E%E8%B5%84%E6%BA%90%E6%B5%81%E7%9A%84%E4%BA%91%E5%88%B6%E9%80%A0%E7%A0%94%E7%A9%B6%E7%BB%BC%E8%BF%B0%E8%A2%AB%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E5%AD%A6%E6%8A%A5%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E7%89%88%E5%BD%95%E7%94%A8/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+
+    
+    
+    
+      
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.299c20016eab2ddaf829d17ab5a7213c.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_2.png" />
+
+  <link rel="canonical" href="https://dskezju.github.io/post/zju%E7%9F%A5%E8%AF%86%E5%B7%A5%E7%A8%8B%E4%B8%8E%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E9%A2%98%E7%BB%84%E8%AE%BA%E6%96%87%E5%9F%BA%E4%BA%8E%E8%B5%84%E6%BA%90%E6%B5%81%E7%9A%84%E4%BA%91%E5%88%B6%E9%80%A0%E7%A0%94%E7%A9%B6%E7%BB%BC%E8%BF%B0%E8%A2%AB%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E5%AD%A6%E6%8A%A5%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E7%89%88%E5%BD%95%E7%94%A8/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="DSKE-ZJUI" />
+  <meta property="og:url" content="https://dskezju.github.io/post/zju%E7%9F%A5%E8%AF%86%E5%B7%A5%E7%A8%8B%E4%B8%8E%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E9%A2%98%E7%BB%84%E8%AE%BA%E6%96%87%E5%9F%BA%E4%BA%8E%E8%B5%84%E6%BA%90%E6%B5%81%E7%9A%84%E4%BA%91%E5%88%B6%E9%80%A0%E7%A0%94%E7%A9%B6%E7%BB%BC%E8%BF%B0%E8%A2%AB%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E5%AD%A6%E6%8A%A5%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E7%89%88%E5%BD%95%E7%94%A8/" />
+  <meta property="og:title" content="ZJU知识工程与知识系统课题组论文《基于资源流的云制造研究综述》被华中科技大学学报（自然科学版）录用 | DSKE-ZJUI" />
+  <meta property="og:description" content="ZJU知识工程与知识系统课题组成员王宏伟、张宇飞和燕凯宏围绕资源流对云制造相关研究展开定性和定量分析，准确把握云制造研究现状与发展趋势，独创性地结合高新技术提出云制造新模式，并完成论文《基于资源流的云制造研究综述》的撰写。" /><meta property="og:image" content="https://dskezju.github.io/post/zju%E7%9F%A5%E8%AF%86%E5%B7%A5%E7%A8%8B%E4%B8%8E%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E9%A2%98%E7%BB%84%E8%AE%BA%E6%96%87%E5%9F%BA%E4%BA%8E%E8%B5%84%E6%BA%90%E6%B5%81%E7%9A%84%E4%BA%91%E5%88%B6%E9%80%A0%E7%A0%94%E7%A9%B6%E7%BB%BC%E8%BF%B0%E8%A2%AB%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E5%AD%A6%E6%8A%A5%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E7%89%88%E5%BD%95%E7%94%A8/featured.jpg" />
+    <meta property="twitter:image" content="https://dskezju.github.io/post/zju%E7%9F%A5%E8%AF%86%E5%B7%A5%E7%A8%8B%E4%B8%8E%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E9%A2%98%E7%BB%84%E8%AE%BA%E6%96%87%E5%9F%BA%E4%BA%8E%E8%B5%84%E6%BA%90%E6%B5%81%E7%9A%84%E4%BA%91%E5%88%B6%E9%80%A0%E7%A0%94%E7%A9%B6%E7%BB%BC%E8%BF%B0%E8%A2%AB%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E5%AD%A6%E6%8A%A5%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E7%89%88%E5%BD%95%E7%94%A8/featured.jpg" /><meta property="og:locale" content="zh-Hans" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-05-09T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2022-05-09T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://dskezju.github.io/post/zju%E7%9F%A5%E8%AF%86%E5%B7%A5%E7%A8%8B%E4%B8%8E%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E9%A2%98%E7%BB%84%E8%AE%BA%E6%96%87%E5%9F%BA%E4%BA%8E%E8%B5%84%E6%BA%90%E6%B5%81%E7%9A%84%E4%BA%91%E5%88%B6%E9%80%A0%E7%A0%94%E7%A9%B6%E7%BB%BC%E8%BF%B0%E8%A2%AB%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E5%AD%A6%E6%8A%A5%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E7%89%88%E5%BD%95%E7%94%A8/"
+  },
+  "headline": "ZJU知识工程与知识系统课题组论文《基于资源流的云制造研究综述》被华中科技大学学报（自然科学版）录用",
+  
+  "image": [
+    "https://dskezju.github.io/post/zju%E7%9F%A5%E8%AF%86%E5%B7%A5%E7%A8%8B%E4%B8%8E%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E9%A2%98%E7%BB%84%E8%AE%BA%E6%96%87%E5%9F%BA%E4%BA%8E%E8%B5%84%E6%BA%90%E6%B5%81%E7%9A%84%E4%BA%91%E5%88%B6%E9%80%A0%E7%A0%94%E7%A9%B6%E7%BB%BC%E8%BF%B0%E8%A2%AB%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E5%AD%A6%E6%8A%A5%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E7%89%88%E5%BD%95%E7%94%A8/featured.jpg"
+  ],
+  
+  "datePublished": "2022-05-09T00:00:00Z",
+  "dateModified": "2022-05-09T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "张宇飞"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "DSKE-ZJUI",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://dskezju.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "ZJU知识工程与知识系统课题组成员王宏伟、张宇飞和燕凯宏围绕资源流对云制造相关研究展开定性和定量分析，准确把握云制造研究现状与发展趋势，独创性地结合高新技术提出云制造新模式，并完成论文《基于资源流的云制造研究综述》的撰写。"
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>ZJU知识工程与知识系统课题组论文《基于资源流的云制造研究综述》被华中科技大学学报（自然科学版）录用 | DSKE-ZJUI</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="6f0f0f52f80f6738b05098c3b6c35745" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.c2ae95842e5b33a787c7b8c567e989a4.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>搜索</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="搜索...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">DSKE-ZJUI</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="切换导航">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">DSKE-ZJUI</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#"><span>主页</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/post"><span>新闻</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/people"><span>成员</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/project"><span>项目</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/publication"><span>出版</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>联系我们</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="搜索"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>ZJU知识工程与知识系统课题组论文《基于资源流的云制造研究综述》被华中科技大学学报（自然科学版）录用</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/%E5%BC%A0%E5%AE%87%E9%A3%9E/">张宇飞</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 9, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时长
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/%E8%AE%BA%E6%96%87%E5%8F%91%E8%A1%A8/">论文发表</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 709px; max-height: 721px;">
+  <div style="position: relative">
+    <img src="/post/zju%E7%9F%A5%E8%AF%86%E5%B7%A5%E7%A8%8B%E4%B8%8E%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E9%A2%98%E7%BB%84%E8%AE%BA%E6%96%87%E5%9F%BA%E4%BA%8E%E8%B5%84%E6%BA%90%E6%B5%81%E7%9A%84%E4%BA%91%E5%88%B6%E9%80%A0%E7%A0%94%E7%A9%B6%E7%BB%BC%E8%BF%B0%E8%A2%AB%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E5%AD%A6%E6%8A%A5%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E7%89%88%E5%BD%95%E7%94%A8/featured.jpg" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>ZJU知识工程与知识系统课题组成员王宏伟、张宇飞和燕凯宏围绕资源流对云制造相关研究展开定性和定量分析，准确把握云制造研究现状与发展趋势，独创性地结合高新技术提出云制造新模式，并完成论文《基于资源流的云制造研究综述》的撰写。论文已被《华中科技大学学报（自然科学版）》录用。《华中科技大学学报（自然科学版）》是由华中科技大学主办、教育部主管的综合性科学技术类学术刊物，已被北大核心期刊目录及包括《EI Compendex》在内的30余家权威文摘期刊和重要数据库收录。</p>
+<h4 style="text-align:center;">摘要</h4>
+<p>为全面了解云制造的研究现状以及未来发展趋势，以云制造系统运行过程中的资源流为主线对其研究成果进行综述。结合文献计量法和引文分析法，对从Web of Science与中国知识基础资源数据库检索到的文献成果进行定量和定性分析。首先阐述云制造理论研究基础，然后分析资源流动过程中资源服务化和资源配置阶段的研究现状，总结各个阶段的研究现状和不足；讨论新技术的应用及面临的挑战，并对未来的研究方向作展望。</p>
+<h4 style="text-align:center;">1.  研究背景</h4>
+<p>制造业是强国之基，从根本上体现一个国家的综合实力和国际竞争力。资源作为云制造环境中的核心元素，以数字的形式进行通信与交互，以服务的形式被访问与管理，其实质可被归纳为社会市场中不同场景下，资源在接入、配置与服务等过程中发生的一系列状态、位置、价值、能量等的变化。本文以云制造为研究对象，以资源流为研究主线展开云制造研究的综述，对掌握云制造的当前现状、把握云制造的发展趋势具有重要的现实意义。</p>
+<h4 style="text-align:center;">2.  研究内容</h4>
+<p>本文对比当前已有的综述文献，综合定性分析与定量分析，对2010-2022年期间云制造领域发表的相关文献展开综述研究。</p>
+<div style='text-align:center;'>
+  <!-- <div style='text-align:center; float:left; padding:0; margin:0;height:50%;width:50%;'>
+    <img style="padding:0;margin:0 10px 10px 100px;width:50%;height:50%" src='1.png' alt=''>
+    <br/>
+    <p style='font-size:14px'>图1  云制造相关文献数量的增长趋势图</p>
+  </div> -->
+  <img style="width:80%;height:80%" src='1.png' alt=''>
+  <p>图1  云制造相关文献数量的增长趋势图</p>
+  <img style="width:80%;height:80%"  src='2.png' alt=''>
+  <p>图2  云制造研究相关术语分布图</p>
+</div>
+<p>本文创新性围绕云制造系统运行过程关键主线——资源流，如图3所示，从云制造理论基础、云制造资源服务化与资源配置等方向分析云制造研究发展的现状与不足。</p>
+<div style='text-align:center;'>
+  <img style="margin-bottom:0" src='3.jpg' alt=''>
+  <p style="text-align:center">图3  云制造系统运行原理</p>
+</div>
+<p>云制造作为多技术融合的体系，整合工业互联网、云计算为基础技术，结合5G技术、知识图谱、数字孪生等高新科学技术，以3D打印为例，构建如图4所示的云制造模式新体系。</p>
+<div style='text-align:center'>
+  <img style="margin-bottom:0" src='4.jpg' alt=''>
+  <p style="text-align:center">图4  云制造新模式案例</p>
+</div>
+<h4 style="text-align:center;">3. 研究结论</h4>
+<p>云制造模式以共享、协作、服务等为核心理念，彻底打破传统制造业的束缚，为全球化制造提供高效协作和资源共享的新模式。云制造模式提供产品设计、产品研发、生产制造、产品检测、物流配输、运维管理、售后服务等产品全生命周期服务，建设一站式解决的协同制造平台，打造制造与服务相结合的产业模式，打破传统制造业的时间和空间上的限制，最大化降低资源管理运营成本，提高社会资源利用率。</p>
+
+    </div>
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E5%AD%A6%E6%8A%A5/">华中科技大学学报</a>
+  
+  <a class="badge badge-light" href="/tag/%E8%AE%BA%E6%96%87/">论文</a>
+  
+  <a class="badge badge-light" href="/tag/%E7%BB%BC%E8%BF%B0/">综述</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://dskezju.github.io/post/zju%E7%9F%A5%E8%AF%86%E5%B7%A5%E7%A8%8B%E4%B8%8E%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E9%A2%98%E7%BB%84%E8%AE%BA%E6%96%87%E5%9F%BA%E4%BA%8E%E8%B5%84%E6%BA%90%E6%B5%81%E7%9A%84%E4%BA%91%E5%88%B6%E9%80%A0%E7%A0%94%E7%A9%B6%E7%BB%BC%E8%BF%B0%E8%A2%AB%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E5%AD%A6%E6%8A%A5%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E7%89%88%E5%BD%95%E7%94%A8/&amp;text=ZJU%e7%9f%a5%e8%af%86%e5%b7%a5%e7%a8%8b%e4%b8%8e%e7%9f%a5%e8%af%86%e7%b3%bb%e7%bb%9f%e8%af%be%e9%a2%98%e7%bb%84%e8%ae%ba%e6%96%87%e3%80%8a%e5%9f%ba%e4%ba%8e%e8%b5%84%e6%ba%90%e6%b5%81%e7%9a%84%e4%ba%91%e5%88%b6%e9%80%a0%e7%a0%94%e7%a9%b6%e7%bb%bc%e8%bf%b0%e3%80%8b%e8%a2%ab%e5%8d%8e%e4%b8%ad%e7%a7%91%e6%8a%80%e5%a4%a7%e5%ad%a6%e5%ad%a6%e6%8a%a5%ef%bc%88%e8%87%aa%e7%84%b6%e7%a7%91%e5%ad%a6%e7%89%88%ef%bc%89%e5%bd%95%e7%94%a8" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://dskezju.github.io/post/zju%E7%9F%A5%E8%AF%86%E5%B7%A5%E7%A8%8B%E4%B8%8E%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E9%A2%98%E7%BB%84%E8%AE%BA%E6%96%87%E5%9F%BA%E4%BA%8E%E8%B5%84%E6%BA%90%E6%B5%81%E7%9A%84%E4%BA%91%E5%88%B6%E9%80%A0%E7%A0%94%E7%A9%B6%E7%BB%BC%E8%BF%B0%E8%A2%AB%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E5%AD%A6%E6%8A%A5%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E7%89%88%E5%BD%95%E7%94%A8/&amp;t=ZJU%e7%9f%a5%e8%af%86%e5%b7%a5%e7%a8%8b%e4%b8%8e%e7%9f%a5%e8%af%86%e7%b3%bb%e7%bb%9f%e8%af%be%e9%a2%98%e7%bb%84%e8%ae%ba%e6%96%87%e3%80%8a%e5%9f%ba%e4%ba%8e%e8%b5%84%e6%ba%90%e6%b5%81%e7%9a%84%e4%ba%91%e5%88%b6%e9%80%a0%e7%a0%94%e7%a9%b6%e7%bb%bc%e8%bf%b0%e3%80%8b%e8%a2%ab%e5%8d%8e%e4%b8%ad%e7%a7%91%e6%8a%80%e5%a4%a7%e5%ad%a6%e5%ad%a6%e6%8a%a5%ef%bc%88%e8%87%aa%e7%84%b6%e7%a7%91%e5%ad%a6%e7%89%88%ef%bc%89%e5%bd%95%e7%94%a8" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=ZJU%e7%9f%a5%e8%af%86%e5%b7%a5%e7%a8%8b%e4%b8%8e%e7%9f%a5%e8%af%86%e7%b3%bb%e7%bb%9f%e8%af%be%e9%a2%98%e7%bb%84%e8%ae%ba%e6%96%87%e3%80%8a%e5%9f%ba%e4%ba%8e%e8%b5%84%e6%ba%90%e6%b5%81%e7%9a%84%e4%ba%91%e5%88%b6%e9%80%a0%e7%a0%94%e7%a9%b6%e7%bb%bc%e8%bf%b0%e3%80%8b%e8%a2%ab%e5%8d%8e%e4%b8%ad%e7%a7%91%e6%8a%80%e5%a4%a7%e5%ad%a6%e5%ad%a6%e6%8a%a5%ef%bc%88%e8%87%aa%e7%84%b6%e7%a7%91%e5%ad%a6%e7%89%88%ef%bc%89%e5%bd%95%e7%94%a8&amp;body=https://dskezju.github.io/post/zju%E7%9F%A5%E8%AF%86%E5%B7%A5%E7%A8%8B%E4%B8%8E%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E9%A2%98%E7%BB%84%E8%AE%BA%E6%96%87%E5%9F%BA%E4%BA%8E%E8%B5%84%E6%BA%90%E6%B5%81%E7%9A%84%E4%BA%91%E5%88%B6%E9%80%A0%E7%A0%94%E7%A9%B6%E7%BB%BC%E8%BF%B0%E8%A2%AB%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E5%AD%A6%E6%8A%A5%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E7%89%88%E5%BD%95%E7%94%A8/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://dskezju.github.io/post/zju%E7%9F%A5%E8%AF%86%E5%B7%A5%E7%A8%8B%E4%B8%8E%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E9%A2%98%E7%BB%84%E8%AE%BA%E6%96%87%E5%9F%BA%E4%BA%8E%E8%B5%84%E6%BA%90%E6%B5%81%E7%9A%84%E4%BA%91%E5%88%B6%E9%80%A0%E7%A0%94%E7%A9%B6%E7%BB%BC%E8%BF%B0%E8%A2%AB%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E5%AD%A6%E6%8A%A5%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E7%89%88%E5%BD%95%E7%94%A8/&amp;title=ZJU%e7%9f%a5%e8%af%86%e5%b7%a5%e7%a8%8b%e4%b8%8e%e7%9f%a5%e8%af%86%e7%b3%bb%e7%bb%9f%e8%af%be%e9%a2%98%e7%bb%84%e8%ae%ba%e6%96%87%e3%80%8a%e5%9f%ba%e4%ba%8e%e8%b5%84%e6%ba%90%e6%b5%81%e7%9a%84%e4%ba%91%e5%88%b6%e9%80%a0%e7%a0%94%e7%a9%b6%e7%bb%bc%e8%bf%b0%e3%80%8b%e8%a2%ab%e5%8d%8e%e4%b8%ad%e7%a7%91%e6%8a%80%e5%a4%a7%e5%ad%a6%e5%ad%a6%e6%8a%a5%ef%bc%88%e8%87%aa%e7%84%b6%e7%a7%91%e5%ad%a6%e7%89%88%ef%bc%89%e5%bd%95%e7%94%a8" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=ZJU%e7%9f%a5%e8%af%86%e5%b7%a5%e7%a8%8b%e4%b8%8e%e7%9f%a5%e8%af%86%e7%b3%bb%e7%bb%9f%e8%af%be%e9%a2%98%e7%bb%84%e8%ae%ba%e6%96%87%e3%80%8a%e5%9f%ba%e4%ba%8e%e8%b5%84%e6%ba%90%e6%b5%81%e7%9a%84%e4%ba%91%e5%88%b6%e9%80%a0%e7%a0%94%e7%a9%b6%e7%bb%bc%e8%bf%b0%e3%80%8b%e8%a2%ab%e5%8d%8e%e4%b8%ad%e7%a7%91%e6%8a%80%e5%a4%a7%e5%ad%a6%e5%ad%a6%e6%8a%a5%ef%bc%88%e8%87%aa%e7%84%b6%e7%a7%91%e5%ad%a6%e7%89%88%ef%bc%89%e5%bd%95%e7%94%a8%20https://dskezju.github.io/post/zju%E7%9F%A5%E8%AF%86%E5%B7%A5%E7%A8%8B%E4%B8%8E%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E9%A2%98%E7%BB%84%E8%AE%BA%E6%96%87%E5%9F%BA%E4%BA%8E%E8%B5%84%E6%BA%90%E6%B5%81%E7%9A%84%E4%BA%91%E5%88%B6%E9%80%A0%E7%A0%94%E7%A9%B6%E7%BB%BC%E8%BF%B0%E8%A2%AB%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E5%AD%A6%E6%8A%A5%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E7%89%88%E5%BD%95%E7%94%A8/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://dskezju.github.io/post/zju%E7%9F%A5%E8%AF%86%E5%B7%A5%E7%A8%8B%E4%B8%8E%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E9%A2%98%E7%BB%84%E8%AE%BA%E6%96%87%E5%9F%BA%E4%BA%8E%E8%B5%84%E6%BA%90%E6%B5%81%E7%9A%84%E4%BA%91%E5%88%B6%E9%80%A0%E7%A0%94%E7%A9%B6%E7%BB%BC%E8%BF%B0%E8%A2%AB%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E5%AD%A6%E6%8A%A5%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E7%89%88%E5%BD%95%E7%94%A8/&amp;title=ZJU%e7%9f%a5%e8%af%86%e5%b7%a5%e7%a8%8b%e4%b8%8e%e7%9f%a5%e8%af%86%e7%b3%bb%e7%bb%9f%e8%af%be%e9%a2%98%e7%bb%84%e8%ae%ba%e6%96%87%e3%80%8a%e5%9f%ba%e4%ba%8e%e8%b5%84%e6%ba%90%e6%b5%81%e7%9a%84%e4%ba%91%e5%88%b6%e9%80%a0%e7%a0%94%e7%a9%b6%e7%bb%bc%e8%bf%b0%e3%80%8b%e8%a2%ab%e5%8d%8e%e4%b8%ad%e7%a7%91%e6%8a%80%e5%a4%a7%e5%ad%a6%e5%ad%a6%e6%8a%a5%ef%bc%88%e8%87%aa%e7%84%b6%e7%a7%91%e5%ad%a6%e7%89%88%ef%bc%89%e5%bd%95%e7%94%a8" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/%E5%BC%A0%E5%AE%87%E9%A3%9E/"><img class="avatar mr-3 avatar-circle" src="/author/%E5%BC%A0%E5%AE%87%E9%A3%9E/avatar_huc88ca9e9b74cac614da42ad7e00e2db4_10930_270x270_fill_q75_lanczos_center.jpg" alt="张宇飞"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/%E5%BC%A0%E5%AE%87%E9%A3%9E/">张宇飞</a></h5>
+      <h6 class="card-subtitle">科研助理</h6>
+      <p class="card-text">他致力于研究将知识图谱技术与工业领域深度融合。他的业余爱好是篮球。</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:test@example.org" >
+        <i class="fas fa-user"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?hl=en&amp;user=lFbTT5AAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>相关</h3>
+    <ul>
+      
+      <li><a href="/post/%E6%9C%AC%E7%A7%91%E7%94%9F%E5%8B%87%E5%A4%BA%E9%AB%98%E6%B0%B4%E5%B9%B3%E5%9B%BD%E9%99%85%E4%BC%9A%E8%AE%AE%E6%9C%80%E4%BD%B3%E8%AE%BA%E6%96%87%E5%A5%96/">本科生勇夺高水平国际会议最佳论文奖</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      由<a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>支持发布——免费<a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">开源</a>网站，为创作者赋能。
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">引用</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> 复制
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> 下载
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/zh/js/wowchemy.min.0dbe02a91f919024497e9207456b9042.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
