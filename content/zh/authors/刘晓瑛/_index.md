@@ -56,7 +56,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 已毕业校友
+- 
 ---
 浙江大学生物医学工程与仪器科学学院硕士生。于华南理工大学电气工程及其自动化专业获得学士学位。
 
