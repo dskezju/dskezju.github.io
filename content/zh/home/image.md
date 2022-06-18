@@ -4,7 +4,7 @@
 widget: blank
 
 # Activate this widget? true/false
-active: true
+active: false
 
 # This file represents a page section.
 headless: true
@@ -18,7 +18,7 @@ subtitle:
 design:
   columns: "1"
   background:
-    image: img/HongweiWang.png
+    image: img/graduate_lxy.jpg
     image_darken: 0
     image_parallax: false
     image_position: center

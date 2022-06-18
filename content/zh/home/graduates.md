@@ -15,6 +15,6 @@ design:
 <p>刘晓瑛（<strong>2022届浙江省普通高等学校优秀毕业生</strong>），2019 - 2022
 <br/>
 论文：基于知识图谱的核电设备健康管理系统设计与实现
-<img src='graduate_lxy.jpg'/>
+<img src='media/img/graduate_lxy.jpg'/>
 </p>
 
