@@ -21,7 +21,6 @@ content:
   - 博士研究生
   - 硕士研究生
   - 已毕业校友
-  - Grad Students
   - Visitors
   - Alumni
 design:

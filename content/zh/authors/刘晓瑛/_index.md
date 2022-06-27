@@ -14,7 +14,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 主要研究方向为自然语言处理，熟悉机器学习和深度学习算法，tensorflow和pytorch深度学习框架，目前致力于知识图谱和自然语言处理技术应用于核电运行事件经验反馈系统的研究。
+bio: 主要研究方向为自然语言处理，熟悉机器学习和深度学习算法，tensorflow和pytorch深度学习框架，致力于知识图谱和自然语言处理技术应用于核电运行事件经验反馈系统的研究。毕业论文：基于知识图谱的核电设备健康管理系统设计与实现
 
 interests:
 - 自然语言处理
@@ -56,8 +56,10 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 
+- 已毕业校友
 ---
 浙江大学生物医学工程与仪器科学学院硕士生。于华南理工大学电气工程及其自动化专业获得学士学位。
 
-主要研究方向为自然语言处理，熟悉机器学习和深度学习算法，tensorflow和pytorch深度学习框架，目前致力于知识图谱和自然语言处理技术应用于核电运行事件经验反馈系统的研究。
+主要研究方向为自然语言处理，熟悉机器学习和深度学习算法，tensorflow和pytorch深度学习框架，致力于知识图谱和自然语言处理技术应用于核电运行事件经验反馈系统的研究。毕业论文：基于知识图谱的核电设备健康管理系统设计与实现
+
+![graduate_lxy](graduate_lxy.jpg)

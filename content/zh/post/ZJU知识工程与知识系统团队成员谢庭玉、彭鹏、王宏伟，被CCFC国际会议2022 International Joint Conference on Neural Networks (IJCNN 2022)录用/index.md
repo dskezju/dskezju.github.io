@@ -1,9 +1,9 @@
 ---
-title: ZJU知识工程与知识系统团队成员论文《基于分段嵌入的开放知识图链接预测》被CCFC国际会议2022 IJCNN录用
+title: ZJU知识工程与知识系统团队成员论文《基于分段嵌入的开放知识图链接预测》被CCF-C国际会议2022 IJCNN录用
 subtitle:  
 
 # Summary for listings and search engines
-summary: ZJU知识工程与知识系统团队成员谢庭玉、彭鹏、王宏伟，被CCFC国际会议2022 International Joint Conference on Neural Networks (IJCNN 2022)录用。
+summary: ZJU知识工程与知识系统团队成员谢庭玉、彭鹏、王宏伟，被CCF-C国际会议2022 International Joint Conference on Neural Networks (IJCNN 2022)录用。
 
 # Link this post with a project
 projects: []

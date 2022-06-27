@@ -20,7 +20,7 @@ content:
   - 科研助理
   - 博士研究生
   - 硕士研究生
-  - Grad Students
+  - 已毕业校友
   - Visitors
   - Alumni
 design:

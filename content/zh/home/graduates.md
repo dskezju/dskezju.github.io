@@ -3,7 +3,7 @@ widget: blank
 headless: true
 
 # ... Put Your Section Options Here (title etc.) ...
-title: 毕业生
+title: 已毕业校友
 subtitle:
 weight: 100  # section position on page
 design:
