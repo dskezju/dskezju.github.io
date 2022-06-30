@@ -6,7 +6,7 @@ title: 刘晓瑛
 superuser: false
 
 # Role/position
-role: 硕士研究生
+role: 硕士研究生 2022届浙江省普通高等学校优秀毕业生
 
 # Organizations/Affiliations
 organizations:
